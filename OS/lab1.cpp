@@ -48,6 +48,8 @@ void FIFO(queue<PCB> &rq,queue<PCB> &wq)
     excute(rq,wq);
 }
 
+
+
 void createPCB(PCB pcb[],queue<PCB> &rq,queue<PCB> &wq)
 {
     string name = "pcb";
